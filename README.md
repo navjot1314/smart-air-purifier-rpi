@@ -59,3 +59,7 @@ Hardware setup completed. Software implementation in progress.
 - Data logging and visualization
 - Support for additional environmental sensors
 - Advanced control logic for energy optimization
+
+## System Diagram
+![System Architecture](docs/air_purifier_architecture.png)
+
