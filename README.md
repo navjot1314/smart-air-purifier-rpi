@@ -17,6 +17,26 @@ The system continuously reads data from environmental sensors such as
 temperature and air quality sensors. Based on predefined threshold values,
 the Raspberry Pi Zero decides whether to activate or deactivate the air purifier.
 
+## System Architecture
+The Smart Air Purifier system is centered around a Raspberry Pi Zero that acts as
+the main controller. Environmental sensors continuously provide data to the
+controller, which processes the readings and controls the air purifier based on
+predefined threshold values.
+
+### Main Components
+- Raspberry Pi Zero: Central controller and decision-making unit
+- Temperature Sensor: Measures ambient temperature
+- Air Quality Sensor: Detects pollution levels in the air
+- Air Purifier / Fan Module: Activated or deactivated based on sensor data
+
+### Working Flow
+1. Sensors collect environmental data.
+2. Raspberry Pi Zero reads sensor values using Python scripts.
+3. Sensor values are compared against threshold limits.
+4. The air purifier is turned ON or OFF accordingly.
+5. The process repeats continuously for real-time monitoring.
+
+
 ## Technologies Used
 - Raspberry Pi Zero
 - Python
