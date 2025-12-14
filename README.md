@@ -31,7 +31,6 @@ the Raspberry Pi Zero decides whether to activate or deactivate the air purifier
 - Low-power Raspberry Pi Zero platform
 - Modular Python-based implementation
 
-
 ## Project Status
 Hardware setup completed. Software implementation in progress.
 
